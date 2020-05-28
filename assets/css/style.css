@@ -5,15 +5,22 @@ body {
   color: #333333;
   margin: 0;
   padding: 0;
+  line-height: 150%;
+  font-size: 18px;
 }
-/* Headers */
+/* Header */
+header {
+  background: #333;
+}
 
 h1 {
   background-color: #333333;
   color: #eee;
   font-size: 28px;
   margin: 0px;
-  padding: 20px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -25,15 +32,30 @@ h2 {
   margin: 0 auto;
 }
 
-/* Main Bio */
-#main-bio {
-  float: left;
+/* Link */
+a {
+  color: #d21034;
 }
-/* Contact Information */
-#contact-info {
-  float: left;
-}
-/* Image Bio */
+
+/* IDs */
+#main-bio,
+#contact-info,
 #bio-image {
   float: left;
+}
+
+/* Main bio */
+#main-bio {
+  width: 60%;
+}
+
+/*Contact Information */
+#contact-info {
+  width: 40%;
+}
+
+/* Bio Image */
+#bio-image {
+  width: 200px;
+  margin-right: 20px;
 }
